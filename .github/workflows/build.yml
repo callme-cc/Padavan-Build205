@@ -127,7 +127,8 @@ env:
   FIRMWARE_REPO: padavan
   FIRMWARE_URL: https://github.com/callme-cc/padavan.git
   TOOLCHAIN_ROOT: toolchain/toolchain-mipsel
-  TOOLCHAIN_URL: https://github.com/callme-cc/padavan/releases/download/toolchain
+  TOOLCHAIN_URL: https://github.com/callme-cc/padavan/tree/010b70a7767b3d0d0e7de6e65ed39803c06f60b9/toolchain
+  
 jobs:
   build:
     runs-on: ubuntu-latest
